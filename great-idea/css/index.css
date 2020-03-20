@@ -140,3 +140,70 @@ footer {
 	margin: 20px;
 	padding: 100px 0px 0px;
 }
+
+.big-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 5%;
+	
+}
+.box {
+	width: 40%;
+	background: gainsboro;
+	border: 1px solid black;
+	margin: 2.5%;
+	padding: 1.5%;
+}
+
+.littlebox {
+	border: 1px solid black;
+	margin: 3%;
+	background: white;
+	padding: 3%;
+	width: 35%;
+	border-radius: 20px;
+}
+
+.sheader {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0px 0px 20px;
+	
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.intro {
+	width: 100%;
+	padding:2% 5%;
+	border-bottom: 1px solid black;
+	justify-content: center;
+}
+
+.bigfinish {
+	display: flex;
+	width: 100%;
+	margin: 5%;
+	justify-content: center;
+	border-top: 1px solid black;
+}
+
+.bottomleft {
+	width: 40%;
+	margin: 5%;
+}
+
+ul {
+	list-style-type: square;
+	padding: 15px;
+	line-height: 2;
+}
+.Copyright { 
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
